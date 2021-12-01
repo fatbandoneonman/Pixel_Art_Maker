@@ -14,7 +14,8 @@ $('#sizePicker').submit(function (event) {
     */
     function pickColor() {
     $('td').click( event => {
-        $(event.currentTarget).css("background-color", document.getElementById('colorPicker').value)
+        let colorPicker = document.getElementById('colorPicker').value;
+        $(event.currentTarget).css("background-color", colorPicker)
     });
   }
     pickColor();
