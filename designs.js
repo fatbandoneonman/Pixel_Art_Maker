@@ -21,7 +21,7 @@ $('#sizePicker').submit(function (event) {
     pickColor();
 });
 /**
- * Make grid with for loop and append.
+ * Makes grid with for loop and append.
  * @param {number} height 
  * @param {number} width 
  */
